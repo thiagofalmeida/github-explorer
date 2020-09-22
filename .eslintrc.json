@@ -36,6 +36,14 @@
     "import/prefer-default-export": "off",
     "no-use-before-define": "off",
     "import/no-unresolved": "off",
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowExpressions": true
+      }
+    ],
+    "camelcase": "off",
+    "@typescript-eslint/camelcase": ["off"],
     "import/extensions": [
       "error",
       "ignorePackages",
